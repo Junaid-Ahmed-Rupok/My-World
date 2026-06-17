@@ -1,0 +1,17 @@
+# ============================================================
+# My-World — Sarder Junaid Ahmed's Portfolio
+# ============================================================
+# This is a static portfolio website — no Python dependencies required.
+# 
+# To run locally, simply open index.html in your browser.
+# No installation, no build tools, no server needed.
+# ============================================================
+
+# No Python packages required.
+
+# For development, you might want:
+#   - Live Server (VS Code extension)
+#   - Python's built-in HTTP server:
+#     python -m http.server 8000
+#
+# Or use any static file server.
