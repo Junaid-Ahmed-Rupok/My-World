@@ -298,15 +298,15 @@ section {
 
 .hero-photo-wrap {
     margin: 0 auto 30px;
-    width: 180px;
-    height: 180px;
+    width: 120px;
+    height: 120px;
     border-radius: 50%;
     overflow: hidden;
     border: 3px solid var(--accent);
     box-shadow: 0 0 40px var(--accent-glow), 0 0 80px rgba(0, 229, 255, 0.15);
     flex-shrink: 0;
     transition: var(--transition);
-}
+} 
 
 .hero-photo-wrap:hover {
     transform: scale(1.02);
