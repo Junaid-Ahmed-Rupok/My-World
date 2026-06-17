@@ -92,9 +92,10 @@ My-World/
 ├── 🖼️  assets/
 │   └── images/
 │       ├── .gitkeep
-│       ├── profile.jpg        # ← add your headshot here
-│       ├── cv-academic.pdf    # ← add your academic CV here
-│       └── cv-industry.pdf    # ← add your industry resume here
+│       └── profile.jpg        # ← add your headshot here
+│
+├── 📄 academic-cv.pdf          # ← add your academic CV here
+├── 📄 industry-resume.pdf      # ← add your industry resume here
 │
 └── 📖 README.md                # You are here
 ```
@@ -167,12 +168,12 @@ No dependencies. No build tools. No `npm install`. Just open and go.
 
 <br/>
 
-1. Place your PDFs in `assets/`
+1. Place your PDFs in the repo root
 2. Update the `href="#"` placeholders on the CV buttons:
 
 ```html
-<a href="assets/cv-academic.pdf" download>Academic CV</a>
-<a href="assets/cv-industry.pdf" download>Industry Resume</a>
+<a href="academic-cv.pdf" download>Academic CV</a>
+<a href="industry-resume.pdf" download>Industry Resume</a>
 ```
 
 </details>
