@@ -761,6 +761,48 @@ section {
   color: var(--text-dim);
 }
 
+.research-summary {
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  margin-top: -28px;
+  margin-bottom: 36px;
+  opacity: 0.75;
+  letter-spacing: 0.04em;
+}
+
+.pub-group-label {
+  margin-top: 20px;
+  margin-bottom: 6px;
+  padding: 5px 12px;
+  border-left: 2px solid var(--accent);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.pub-group-label span {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  color: var(--accent);
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  opacity: 0.75;
+}
+
+.doi-link {
+  color: var(--accent);
+  opacity: 0.75;
+  font-size: 0.75rem;
+  transition: opacity var(--transition);
+  text-decoration: none;
+}
+
+.doi-link:hover {
+  opacity: 1;
+  text-decoration: underline;
+}
+
 /* ── CV ──────────────────────────────────────────────────── */
 #cv { background: var(--bg-2); }
 
